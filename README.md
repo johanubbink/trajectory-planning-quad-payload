@@ -1,8 +1,7 @@
 # Trajectory planning for a quadrotor UAV with suspended payload
-This project implements a trajectory planner for a 2D model of a quadrotor UAV, with a suspended payload, through confined spaces. To better understand the project, here is a link to a video I made.
+This project implements a trajectory planner for a 2D model of a quadrotor UAV, with a suspended payload, through confined spaces. Here is a link to a presentation I gave about the planner.
 
 [![Trajectory planning](https://img.youtube.com/vi/YTAeVl-ViNA/0.jpg)](https://www.youtube.com/watch?v=YTAeVl-ViNA)
-
 
 
 ## Trajectory Planner
@@ -18,4 +17,5 @@ This is a matlab simulation model for a quadrotor UAV with suspended payload. Th
 - Internal controllers such as tilt angle controller
 - Trajectory regulator to execute a given trajectory
 
-To load, the setup_simulation.m file needs to be called.
+The simulation model is implemented as a simulink model, with the name "quad_payload_model.slx".
+To load the needed parameters for simulation, setup_simulation.m file needs to be called. This file takes the planned trajectory from the ".mat" file, and converts it to be used with the simulation model.
