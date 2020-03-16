@@ -1,8 +1,9 @@
 # Trajectory planning for a quadrotor UAV with suspended payload
 This project implements a trajectory planner for a 2D model of a quadrotor UAV, with a suspended payload, through confined spaces. To better understand the project, here is a link to a video I made.
 
+<p align="center">
 [![Trajectory planning](https://img.youtube.com/vi/YTAeVl-ViNA/0.jpg)](https://www.youtube.com/watch?v=YTAeVl-ViNA)
-
+</p>
 
 
 ## Trajectory Planner
