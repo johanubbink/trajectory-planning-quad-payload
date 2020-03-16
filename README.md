@@ -1,7 +1,9 @@
 # Trajectory planning for a quadrotor UAV with suspended payload
 This project implements a trajectory planner for a 2D model of a quadrotor UAV, with a suspended payload, through confined spaces. To better understand the project, here is a link to a video I made.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YTAeVl-ViNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Alt text](https://img.youtube.com/vi/YTAeVl-ViNA/0.jpg)](https://www.youtube.com/embed/YTAeVl-ViNA)
+
+
 
 ## Trajectory Planner
 The trajectory planner combines the Astar search algorithm with input shaping actions. Input shaping is an open-loop technique for generating oscillation free responses.
